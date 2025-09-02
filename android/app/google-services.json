@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "475057435698",
+    "project_id": "kotlin-95f5d",
+    "storage_bucket": "kotlin-95f5d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475057435698:android:f97671d4a5781e1728782b",
+        "android_client_info": {
+          "package_name": "com.example.temp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAstFUkwp8s0j1o7XKdmHXK1ZqpWq1zVV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475057435698:android:da5f3d54ec01e76628782b",
+        "android_client_info": {
+          "package_name": "com.example.track_that_flutter"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAstFUkwp8s0j1o7XKdmHXK1ZqpWq1zVV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475057435698:android:54f4043a6ea5da2b28782b",
+        "android_client_info": {
+          "package_name": "com.francesco.trackthat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAstFUkwp8s0j1o7XKdmHXK1ZqpWq1zVV4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
