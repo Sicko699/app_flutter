@@ -61,7 +61,6 @@ class _AccountsPageState extends State<AccountsPage> {
       body: Consumer2<ContoService, TransazioneService>(
         builder: (context, contoService, transazioneService, _) {
           if (_showForm) {
-            // Modalità form - usa SingleChildScrollView per gestire l'overflow
             return SingleChildScrollView(
               padding: const EdgeInsets.all(16),
               child: ContoFormWidget(
@@ -165,7 +164,6 @@ class _AccountsPageState extends State<AccountsPage> {
                                       ],
                                     ),
                                     const SizedBox(height: 12),
-                                    // Saldo attuale - Design semplificato
                                     Row(
                                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                                       children: [
@@ -188,7 +186,6 @@ class _AccountsPageState extends State<AccountsPage> {
                                       ],
                                     ),
                                     const SizedBox(height: 16),
-                                    // Statistiche mensili - Dimensioni ridotte
                                     _buildContoStatsImproved(conto, contoService, transazioneService),
                                    ],
                                  ),

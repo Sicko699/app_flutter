@@ -151,7 +151,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
               ),
               const SizedBox(height: 24),
               
-              // Ultime transazioni - usa Consumer3 per questo caso complesso
+              // Ultime transazioni - usa Consumer3 perché è più complesso
               Consumer3<TransazioneService, ContoService, CategoriaService>(
                 builder: (context, transazioneService, contoService, categoriaService, _) =>
                     _buildRecentTransactions(transazioneService, contoService, categoriaService),
@@ -492,7 +492,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver {
     // Filtra le transazioni per escludere i trasferimenti dalle statistiche
     final transazioniPerStatistiche = transazioni.where((t) => t.tipo != 'trasferimento').toList();
     
-    // NOTA: I trasferimenti vengono esclusi dalle statistiche di entrate/uscite
+    // I trasferimenti vengono esclusi dalle statistiche di entrate/uscite
     // perché rappresentano solo movimenti interni tra conti, non entrate o uscite reali
     for (var transazione in transazioniPerStatistiche) {
       if ((transazione.data.isAfter(inizioMese) || transazione.data.isAtSameMomentAs(inizioMese)) && 

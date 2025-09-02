@@ -80,7 +80,7 @@ class Transazione {
     };
   }
 
-  // Helper per convertire tipo Flutter → Kotlin
+  // Helper per convertire tipo Flutter -> Kotlin
   static String _kotlinTipo(String tipo) {
     switch (tipo.toLowerCase()) {
       case 'uscita': return 'Expense';

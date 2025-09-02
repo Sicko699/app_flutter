@@ -46,12 +46,12 @@ class Categoria {
         String iconaValue = _parseString(map['icona']);
         String coloreValue = _parseString(map['coloreIcona']);
         
-        // Se i valori sono in formato Kotlin (nome/hex), convertili per uso interno Flutter
+        // Se i valori sono in formato Kotlin (nome/hex), convertire per uso interno Flutter
         if (!_isNumericIcon(iconaValue)) {
-            // È già nel formato nome, mantienilo così
+            // È già nel formato nome, mantenere così
         }
         if (!_isNumericColor(coloreValue)) {
-            // È già nel formato hex, mantienilo così
+            // È già nel formato hex, mantenere così
         }
         
         return Categoria(
